@@ -1,7 +1,3 @@
-layout: page
-title: "About us"
-permalink: /about/
-
 ## About Us
 
 Universidad Nacional de Costa Rica
