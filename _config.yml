@@ -1,7 +1,7 @@
 # theme: minima
 remote_theme: pages-themes/cayman@v0.2.0
-title: Microservicios, CI/CD, DevOps y OpenSource
-description: Sitio web explicativo basado en temas de Microservicios, CI/CD, DevOps y OpenSource
+title: Open Source @ UNA
+description: Reposotiorio Open Source de documentación en nuevas tecnologías
 navigation:
   - title: Home
     url: /

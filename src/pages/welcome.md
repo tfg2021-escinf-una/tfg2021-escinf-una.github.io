@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Welcome
-permalink: /
+permalink: /Welcome
 ---
 
 ## Welcome to GitHub Pages
