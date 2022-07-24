@@ -5,3 +5,41 @@
 .my-definition {
   font-size: 1.2rem
 }
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  // background-color: yellow;
+  width: 33%;
+}
+
+.title-container {
+  margin-left: 2%;
+}
+
+.header-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  // background-color: red;
+  width: 33%;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  // background-color: blue;
+  width: 33%;
+}

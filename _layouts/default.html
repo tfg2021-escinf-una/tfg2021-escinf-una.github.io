@@ -15,8 +15,16 @@
   <body>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <div class="header-container">
+        <div class="header-left">
+          <img src="../src/images/una_logo.png" width="60px" height="60px"/>
+          <h1 class="title-container">Open Source Docs</h1>
+        </div>
+        <div class="header-center">
+          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        </div>
+        <div class="header-right"><p></p></div>
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
@@ -25,7 +33,7 @@
       <footer class="site-footer">
         <p class="my-definition">Escuela de Informática</p>
         <p class="site-footer-credits">Universidad Nacional</p>
-        <p class="site-footer-credits">2021</p>
+        <p class="site-footer-credits">2022</p>
       </footer>
     </main>
   </body>
