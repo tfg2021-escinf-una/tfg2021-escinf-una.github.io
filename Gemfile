@@ -4,6 +4,7 @@ gem "jekyll"
 # gem "minima"
 gem "jekyll-theme-cayman"
 gem "webrick"
+gem "jemoji"
 gem "github-pages"
 gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do

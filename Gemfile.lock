@@ -276,7 +276,7 @@ DEPENDENCIES
   jekyll
   jekyll-feed (~> 0.6)
   jekyll-theme-cayman
-  minima
+  jemoji
   webrick
 
 RUBY VERSION

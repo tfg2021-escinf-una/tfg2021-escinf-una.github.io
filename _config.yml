@@ -11,3 +11,4 @@ baseurl: "/"
 url: "localhost:4000"
 plugins:
   - jekyll-remote-theme
+  - jemoji
