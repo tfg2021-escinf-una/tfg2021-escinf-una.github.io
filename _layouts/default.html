@@ -1,40 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 {% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     {% include head-custom.html %}
   </head>
   <body>
+      <div id="header">
+        <nav>
+          <ul>
+            <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
+          </ul>
+        </nav>
+      </div><!-- end header -->
 
-    <header class="page-header" role="banner">
-      <div class="header-container">
-        <div class="header-left">
-          <img alt="logo Universidad Nacional" src="/src/images/una_logo.png" width="60px" height="60px"/>
-          <h1 class="title-container">Open Source Docs</h1>
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
         </div>
-        <div class="header-center">
-          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        </div>
-        <div class="header-right"><p></p></div>
-      </div>
-    </header>
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+        {{ content }}
 
-      <footer class="site-footer">
-        <p class="my-definition">Escuela de Informática</p>
-        <p class="site-footer-credits">Universidad Nacional</p>
-        <p class="site-footer-credits">2022</p>
-      </footer>
-    </main>
+      </section>
+
+    </div>
   </body>
 </html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+
+    <header class="page-header" role="banner">
+      <div class="header-container">
+        <div class="header-left">
+          <img alt="logo Universidad Nacional" src="/src/images/una_logo.png" width="60px" height="60px"/>
+          <h1 class="title-container">Open Source Docs</h1>
+        </div>
+        <div class="header-center">
+          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        </div>
+        <div class="header-right"><p></p></div>
+      </div>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <p class="my-definition">Escuela de Informática</p>
+        <p class="site-footer-credits">Universidad Nacional</p>
+        <p class="site-footer-credits">2022</p>
+      </footer>
+    </main>
+  </body>
+</html>
