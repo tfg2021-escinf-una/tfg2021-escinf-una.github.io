@@ -1,7 +1,7 @@
 # theme: minima
 remote_theme: pages-themes/cayman@v0.2.0
 title: Open Source @ UNA
-description: Reposotiorio Open Source de documentación en nuevas tecnologías
+description: Repositorio Open Source de documentación en nuevas tecnologías
 navigation:
   - title: Home
     url: /
