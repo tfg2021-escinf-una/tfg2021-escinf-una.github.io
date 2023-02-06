@@ -7,4 +7,4 @@ permalink: /Tutorial/Microservicios/Identity-Management/
 
 ![Identity Management Microservice](/src/images/enfasis_identity.png)
 
-[Anterior]({% link src/pages/tutorial/microservicios/main.md %}){: .btn-previous}
+[Anterior]({% link src/pages/tutorial/microservicios/main.md %}){: .btn-previous} [Siguiente]({% link src/pages/tutorial/microservicios/identity-management-microservice/setup.md %}){: .btn-next}

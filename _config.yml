@@ -1,7 +1,7 @@
 # theme: minima
 remote_theme: pages-themes/midnight@v0.2.0
 title: Open Source @ UNA
-description: Reposotiorio Open Source de documentación en nuevas tecnologías
+description: Repositorio Open Source de documentación en nuevas tecnologías
 site:
    github:
       repository_url: https://github.com/tfg2021-escinf-una/tfg2021-escinf-una.github.io

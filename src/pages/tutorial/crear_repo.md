@@ -41,19 +41,6 @@ A continuación se muestran los pasos para la creación de cada repositorio.
 8. Click en crear repositorio.
 9. Clone el repositorio `notification-microservice` dentro de la carpeta `microservices-tutorial`.
 
-## Covid Info Microservice
-
-1. Ingresar a la página principal de Github
-2. Click en el botón New.
-3. Colocar el nombre del repositorio: `covid-info-microservice`.
-4. Seleccionar la privacidad del repositorio:
-    - público :book:
-    - privado :lock:
-5. Marcar la opción de agrgar el README file [Opcional].
-6. Seleccionar `Go` como plantilla para el archivo .gitignore.
-7. Seleccionar una licencia: MIT.
-8. Click en crear repositorio.
-9. Clone el repositorio `covid-info-microservice` dentro de la carpeta `microservices-tutorial`.
 
 ## Covid Info Microservice
 
