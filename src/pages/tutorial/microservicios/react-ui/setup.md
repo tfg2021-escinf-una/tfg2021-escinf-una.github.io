@@ -1,7 +1,7 @@
 ---
 layout: default
 title: React User Interface
-permalink: /Tutorial/Microservicios/React/Setup
+permalink: /Tutorial/Microservicios/ReactUI/Setup
 ---
 [Regresar]({% link src/pages/main.md %})
 # Setup
