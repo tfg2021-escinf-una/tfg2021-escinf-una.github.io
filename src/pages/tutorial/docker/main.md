@@ -7,9 +7,6 @@ permalink: /Tutorial/Containers
 
 [Regresar al Inicio]({% link src/pages/main.md %})
 
-Explicación
-
-![Coming Soon](/src/images/coming_soon.gif)
 
 A continuación se detallarán los pasos para contenerizar cada uno de los componentes de la aplicación anteriromente construidos.
 
